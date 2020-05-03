@@ -1,0 +1,12 @@
+name: couchdb_continuous_changes
+description: Fetch continuous feed from a CouchDB database
+version: 0.1.0
+homepage: https://github.com/EliasBF/couchdb_continuous_changes
+author: Elias Becerra <e1@eliashbf.com>
+license: MIT
+
+environment:
+    sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+    http: ^0.12.1
